@@ -1,0 +1,19 @@
+
+Place an order:
+		
+		 order -> purchase order publisher -> purchase order consumer.
+		 
+		 order : producer : orderStatus : consumer.
+		 
+		 
+		 consumer ----> places order--------> available stock quantity (producer data)
+		 
+		  --------->  producer data is updated --> stock quantity reduced.
+		  
+		  ----------> fetches consumer details from consumer data.
+		  
+		  ----------> an exchange (deliver service) is assigned and connected.
+		  
+		  -----------> out for delivery, and consumer data will get updated
+		  										with tracking details.
+		  
